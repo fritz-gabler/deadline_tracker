@@ -1,0 +1,124 @@
+{
+  "settings": {
+    "hoursPerDay": 4,
+    "bufferDays": 2,
+    "weekends": false
+  },
+  "events": [
+    {
+      "id": "ev1",
+      "title": "Kurs-Launch",
+      "date": "2026-11-20",
+      "pinned": true,
+      "color": "#5B7FA6",
+      "tasks": [
+        {
+          "id": "t1",
+          "title": "Kurs-Videos hochladen",
+          "hours": 2,
+          "due": "2026-11-04",
+          "status": "done"
+        },
+        {
+          "id": "t2",
+          "title": "Landingpage fertigstellen",
+          "hours": 3,
+          "due": "2026-11-06",
+          "status": "doing",
+          "day": "2026-10-26"
+        },
+        {
+          "id": "t3",
+          "title": "Zahlungsflow testen",
+          "hours": 3,
+          "due": "2026-11-10",
+          "status": "open"
+        },
+        {
+          "id": "t4",
+          "title": "Willkommens-Mail schreiben",
+          "hours": 2,
+          "due": "2026-11-13",
+          "status": "open"
+        },
+        {
+          "id": "t5",
+          "title": "Launch-Posts vorbereiten",
+          "hours": 3,
+          "due": "2026-11-17",
+          "status": "open"
+        }
+      ]
+    },
+    {
+      "id": "ev2",
+      "title": "Stiftungsantrag einreichen",
+      "date": "2026-11-30",
+      "pinned": true,
+      "color": "#6BAF5B",
+      "tasks": [
+        {
+          "id": "t6",
+          "title": "Projektbeschreibung schreiben",
+          "hours": 8,
+          "due": "2026-11-18",
+          "status": "open"
+        },
+        {
+          "id": "t7",
+          "title": "Budgetplan erstellen",
+          "hours": 4,
+          "due": "2026-11-23",
+          "status": "open"
+        },
+        {
+          "id": "t8",
+          "title": "Anlagen sammeln",
+          "hours": 2,
+          "due": "2026-11-26",
+          "status": "open"
+        },
+        {
+          "id": "t9",
+          "title": "Gegenlesen lassen",
+          "hours": 1,
+          "due": "2026-11-27",
+          "status": "open"
+        }
+      ]
+    },
+    {
+      "id": "ev3",
+      "title": "Kundentermin Relaunch",
+      "date": "2026-11-12",
+      "time": "14:00",
+      "pinned": false,
+      "color": "#C79A5B",
+      "tasks": [
+        {
+          "id": "t10",
+          "title": "Angebot aktualisieren",
+          "hours": 3,
+          "due": "2026-11-10",
+          "status": "open"
+        },
+        {
+          "id": "t11",
+          "title": "Präsentation bauen",
+          "hours": 8,
+          "due": "2026-11-11",
+          "status": "open"
+        }
+      ]
+    },
+    {
+      "id": "ev4",
+      "title": "Zahnarzt",
+      "date": "2026-10-29",
+      "time": "09:30",
+      "pinned": false,
+      "color": "#7C8594",
+      "tasks": []
+    }
+  ]
+}
